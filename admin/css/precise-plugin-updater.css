@@ -1,0 +1,13 @@
+.ppu-mobile-only{
+	display: none;
+}
+
+@media screen and (max-width: 782px){
+	.ppu-container > div{
+		display: inline;
+		margin-right: 10px;
+	}
+	.ppu-mobile-only{
+		display: inline;
+	}
+}
